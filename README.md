@@ -16,5 +16,10 @@ The website is built using the following technologies:
 * Node.js: The website is built using Node.js, an open-source, cross-platform, back-end JavaScript runtime environment.
 * Express.js: The website uses Express.js, a fast and minimalist web framework for Node.js.
 
+# Some Images from the Website
+![WhatsApp Image 2023-04-03 at 15 49 36](https://user-images.githubusercontent.com/93365515/229486468-37fb4eb3-2fe3-4621-9777-9b1047395a84.jpg)
+![WhatsApp Image 2023-04-03 at 14 14 25](https://user-images.githubusercontent.com/93365515/229486557-4baab297-0606-4cba-9698-34d6b2c9675d.jpg)
+![WhatsApp Image 2023-04-03 at 14 14 41](https://user-images.githubusercontent.com/93365515/229486589-39a1bc52-4e9d-4f50-89cf-241532fed1fc.jpg)
+
 # Contributing
 We welcome contributions to this blog website. To contribute, please fork the repository and create a new branch for your changes. Once you have made your changes, submit a pull request for review.
