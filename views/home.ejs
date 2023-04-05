@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+  <h1>Discovering the Future of Machine Learning and Deep Learning: Stay Up-to-Date with the Latest Trends, Breakthroughs, and Insights</h1>
+  <p> <%= startingContent %></p>
+  <% console.log(posts); %>
+
+    <%posts.forEach(function(post){%>
+
+      <h3><%=post.title%></h3>
+      <p>
+        <%=post.content.substring(0,450)+"..."%>
+        <a href="/posts/<%=post._id%>">Read More</a>
+        <br><br>
+        tags: <%=post.tags%>
+        <form action="/posts/<%= post._id %>/delete" method="POST">
+          <button class = "btn btn-secondary" type="submit">Delete</button>
+        </form>
+      </p>
+
+    <%})%><br>
+    <a href="/compose"><button class = "btn btn-primary right-align" type="submit" name="button">Compose new blog</button></a>
+    <br><br><br>
+<%- include("partials/footer"); -%>
