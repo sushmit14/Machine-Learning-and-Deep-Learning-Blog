@@ -25,5 +25,11 @@ The website is built using the following technologies:
 
 ![WhatsApp Image 2023-04-05 at 12 03 21](https://user-images.githubusercontent.com/93365515/230001505-cc0623b6-69d0-41f5-b8ab-dc5ccec913d9.jpg)
 
+# Installation
+1. Clone the repository.
+2. Install the dependencies by running npm install in the terminal.
+3. Start the server by running node app.js in the terminal.
+4. Open a web browser and go to http://localhost:3000 to view the website.
+
 # Contributing
 We welcome contributions to this blog website. To contribute, please fork the repository and create a new branch for your changes. Once you have made your changes, submit a pull request for review.
